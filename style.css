@@ -62,7 +62,6 @@ button{
     justify-content: center;
     flex-grow: 0;
     flex-basis: 0;
-    padding: 0px 16px;
     gap: 16px;
     padding: 2em 10em;
     gap: 4em;
@@ -101,9 +100,31 @@ button{
     font-style: italic;
 }
 
+
 .quote div{
     width: 800px;
     text-align: right;
     font-weight: 900;
     font-size: 24px;
+}
+
+.shopBox{
+    display: flex;
+    margin:20px auto;
+    padding: 2em 6em;
+    justify-content: space-between;
+
+    width: 800px;
+    background: #3882f6;
+    border-radius: 10px;
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.shopBox .left .title{
+    font-weight: 800;
+}
+
+.shopBox .left .desc{
+    font-style: italic;
 }
