@@ -94,7 +94,9 @@ button{
 }
 
 .quote p{
+
     max-width: 800px;
+
     font-size: 36px;
     color: #1F2937;
     font-weight: 100;
@@ -102,8 +104,7 @@ button{
 }
 
 .quote div{
-    width: 800px;
-    text-align: right;
-    font-weight: 900;
-    font-size: 24px;
+    display: flex;
+    justify-content: right;
+    font-weight: 800;
 }
